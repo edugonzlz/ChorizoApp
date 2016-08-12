@@ -15,6 +15,14 @@
 		3401F5F01C007B4F0000BF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3401F5EE1C007B4F0000BF74 /* LaunchScreen.storyboard */; };
 		3401F5FB1C007B500000BF74 /* ChorizoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401F5FA1C007B500000BF74 /* ChorizoAppTests.m */; };
 		3401F6061C007B500000BF74 /* ChorizoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401F6051C007B500000BF74 /* ChorizoAppUITests.m */; };
+		3401F6151C007D240000BF74 /* chorizo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401F6131C007D240000BF74 /* chorizo.png */; };
+		3401F6161C007D240000BF74 /* rajoy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3401F6141C007D240000BF74 /* rajoy.jpeg */; };
+		3401F6191C007F650000BF74 /* horn2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3401F6181C007F650000BF74 /* horn2.wav */; };
+		3401F61E1C0091650000BF74 /* tape1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401F61A1C0091650000BF74 /* tape1.png */; };
+		3401F61F1C0091650000BF74 /* tape2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401F61B1C0091650000BF74 /* tape2.png */; };
+		3401F6201C0091650000BF74 /* tape3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401F61C1C0091650000BF74 /* tape3.png */; };
+		3401F6211C0091650000BF74 /* tape4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401F61D1C0091650000BF74 /* tape4.png */; };
+		347077B51C4E4BC2006625F1 /* EGGSystemSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 347077B41C4E4BC2006625F1 /* EGGSystemSound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		3401F6011C007B500000BF74 /* ChorizoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChorizoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3401F6051C007B500000BF74 /* ChorizoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChorizoAppUITests.m; sourceTree = "<group>"; };
 		3401F6071C007B500000BF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3401F6131C007D240000BF74 /* chorizo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chorizo.png; sourceTree = "<group>"; };
+		3401F6141C007D240000BF74 /* rajoy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rajoy.jpeg; sourceTree = "<group>"; };
+		3401F6181C007F650000BF74 /* horn2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn2.wav; sourceTree = "<group>"; };
+		3401F61A1C0091650000BF74 /* tape1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape1.png; sourceTree = "<group>"; };
+		3401F61B1C0091650000BF74 /* tape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape2.png; sourceTree = "<group>"; };
+		3401F61C1C0091650000BF74 /* tape3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape3.png; sourceTree = "<group>"; };
+		3401F61D1C0091650000BF74 /* tape4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape4.png; sourceTree = "<group>"; };
+		347077B31C4E4BC2006625F1 /* EGGSystemSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGGSystemSound.h; sourceTree = "<group>"; };
+		347077B41C4E4BC2006625F1 /* EGGSystemSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGGSystemSound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,13 @@
 		3401F5DF1C007B4F0000BF74 /* ChorizoApp */ = {
 			isa = PBXGroup;
 			children = (
+				3401F6171C007D2E0000BF74 /* Resources */,
 				3401F5E31C007B4F0000BF74 /* AppDelegate.h */,
 				3401F5E41C007B4F0000BF74 /* AppDelegate.m */,
 				3401F5E61C007B4F0000BF74 /* ViewController.h */,
 				3401F5E71C007B4F0000BF74 /* ViewController.m */,
+				347077B31C4E4BC2006625F1 /* EGGSystemSound.h */,
+				347077B41C4E4BC2006625F1 /* EGGSystemSound.m */,
 				3401F5E91C007B4F0000BF74 /* Main.storyboard */,
 				3401F5EC1C007B4F0000BF74 /* Assets.xcassets */,
 				3401F5EE1C007B4F0000BF74 /* LaunchScreen.storyboard */,
@@ -138,6 +158,20 @@
 				3401F6071C007B500000BF74 /* Info.plist */,
 			);
 			path = ChorizoAppUITests;
+			sourceTree = "<group>";
+		};
+		3401F6171C007D2E0000BF74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3401F61A1C0091650000BF74 /* tape1.png */,
+				3401F61B1C0091650000BF74 /* tape2.png */,
+				3401F61C1C0091650000BF74 /* tape3.png */,
+				3401F61D1C0091650000BF74 /* tape4.png */,
+				3401F6181C007F650000BF74 /* horn2.wav */,
+				3401F6131C007D240000BF74 /* chorizo.png */,
+				3401F6141C007D240000BF74 /* rajoy.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3401F61F1C0091650000BF74 /* tape2.png in Resources */,
+				3401F6161C007D240000BF74 /* rajoy.jpeg in Resources */,
+				3401F6211C0091650000BF74 /* tape4.png in Resources */,
+				3401F61E1C0091650000BF74 /* tape1.png in Resources */,
+				3401F6151C007D240000BF74 /* chorizo.png in Resources */,
 				3401F5F01C007B4F0000BF74 /* LaunchScreen.storyboard in Resources */,
 				3401F5ED1C007B4F0000BF74 /* Assets.xcassets in Resources */,
+				3401F6191C007F650000BF74 /* horn2.wav in Resources */,
 				3401F5EB1C007B4F0000BF74 /* Main.storyboard in Resources */,
+				3401F6201C0091650000BF74 /* tape3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347077B51C4E4BC2006625F1 /* EGGSystemSound.m in Sources */,
 				3401F5E81C007B4F0000BF74 /* ViewController.m in Sources */,
 				3401F5E51C007B4F0000BF74 /* AppDelegate.m in Sources */,
 				3401F5E21C007B4F0000BF74 /* main.m in Sources */,
@@ -496,6 +538,7 @@
 				3401F60C1C007B500000BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3401F60D1C007B500000BF74 /* Build configuration list for PBXNativeTarget "ChorizoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				3401F60F1C007B500000BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3401F6101C007B500000BF74 /* Build configuration list for PBXNativeTarget "ChorizoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				3401F6121C007B500000BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
